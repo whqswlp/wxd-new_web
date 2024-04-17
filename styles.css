@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://pic.netbian.com/uploads/allimg/240416/002230-17131981504323.jpg'); /* 添加背景图片 */
+  background-size: cover; /* 背景图片覆盖整个容器 */
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+}
+
+/* 其他的CSS样式保持不变 */
+
+.login-container {
+  width: 300px; /* 设置宽度 */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* 增加边框半径 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.7; /* 设置透明度为80% */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* 增加输入框的边框半径 */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 5px; /* 增加按钮的边框半径 */
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
